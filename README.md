@@ -5,9 +5,9 @@ PROBLEM STATEMENT:  USING THE CALIFORNIA HOUSING DATASET      -   i) Try replaci
 This repository contains the analysis of the housing dataset using scikit-learn. The primary goal is to replace GridSearchCV with RandomizedSearchCV in a single pipeline for data preparation and final prediction. Additionally, a transformer is added to select the most important attributes.
 
 # Folder Structure
-# data/: Contains the housing dataset files.
-# notebooks/: Jupyter notebooks for data preprocessing, modeling, and analysis.
-# README.md: This file providing an overview of the project.
+### data/: Contains the housing dataset files.
+### notebooks/: Jupyter notebooks for data preprocessing, modeling, and analysis.
+### README.md: This file providing an overview of the project.
 
 # Dataset Description
 The housing dataset consists of features related to housing in Boston, aiming to predict the median value of owner-occupied homes. The dataset includes various attributes such as crime rate, pupil-teacher ratio, etc.
@@ -24,6 +24,8 @@ We've implemented RandomizedSearchCV in a single pipeline for data preparation a
 
 4.Feature Selection Transformer In this analysis, we've integrated a transformer into the pipeline to select the most important attributes for model training. This helps in improving model performance and reducing computational overhead.
 
-# Conclusion The implementation of RandomizedSearchCV in the pipeline, along with the feature selection transformer, enhances the efficiency of model tuning and data preparation for predicting housing prices.
+# Conclusion 
+The implementation of RandomizedSearchCV in the pipeline, along with the feature selection transformer, enhances the efficiency of model tuning and data preparation for predicting housing prices.
 
-# References Scikit-learn Documentation Housing Dataset Source
+# References 
+Scikit-learn Documentation Housing Dataset Source
